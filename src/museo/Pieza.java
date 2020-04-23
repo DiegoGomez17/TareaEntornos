@@ -1,6 +1,7 @@
 package museo;
 
 public class Pieza {
+
 	//ATRIBUTOS--------------------------------------------
 		private String id;
 		private double tamaño;
@@ -84,7 +85,7 @@ public class Pieza {
 			return true;
 		}
 		//-------------------------------------------------------------
-		 public void mostrarPieza()
+		public void mostrarPieza()
 		 {
 			 System.out.println("---------------------------------------------");
 			 System.out.println("ID de la pieza -> " + this.id);
