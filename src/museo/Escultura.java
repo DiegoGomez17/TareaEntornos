@@ -48,7 +48,7 @@ public class Escultura extends Pieza {
 	 }
 	@Override
 	public void limpiarPieza() {
-		// TODO Auto-generated method stub
+		System.out.println("Limpiando escultura");	
 		
 	}
 	

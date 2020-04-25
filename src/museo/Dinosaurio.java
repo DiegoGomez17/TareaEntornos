@@ -49,7 +49,7 @@ public class Dinosaurio extends Pieza {
 	 }
 	@Override
 	public void limpiarPieza() {
-		// TODO Auto-generated method stub
+		System.out.println("Limpiando esqueleto de dinosaurio");
 		
 	}
 	
