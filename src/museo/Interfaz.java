@@ -50,7 +50,7 @@ public class Interfaz {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setResizable(false);
-		frame.setBounds(100, 100, 546, 520);
+		frame.setBounds(100, 100, 546, 422);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Image imagen = new ImageIcon(this.getClass().getResource("/museo.png")).getImage();
 		frame.setIconImage(imagen);
@@ -92,6 +92,7 @@ public class Interfaz {
 		        Sala s1 = new Sala("001", piezas);
 				s1.mostrarSala();
 				
+				
 			}
 
 		
@@ -99,6 +100,12 @@ public class Interfaz {
 		btnConsularSala.setBounds(261, 343, 214, 23);
 		btnConsularSala.setVisible(true);
 		frame.getContentPane().add(btnConsularSala);
+		
+		
+		
+		
+		
+		
 		
 		JButton btnConsultarPieza = new JButton("Consultar piezas");
 		btnConsultarPieza.addActionListener(new ActionListener() {

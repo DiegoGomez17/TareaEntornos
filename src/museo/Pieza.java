@@ -89,7 +89,7 @@ public class Pieza {
 		 {
 			 System.out.println("---------------------------------------------");
 			 System.out.println("ID de la pieza -> " + this.id);
-			 System.out.println("Tamaño de lapieza -> " + this.tamaño + " centimetros");
+			 System.out.println("Tamaño de la pieza -> " + this.tamaño + " centimetros");
 			 System.out.println("Antigüedad  de la pieza -> " + this.antiguedad + " años");
 		 }
 
