@@ -2,6 +2,11 @@ package pruebas;
 
 import museo.Escultura;
 
+/**
+ * La funcion de esta clase es probar que funciona los metodos de las clases correspondientes
+ * @author Diego
+ *
+ */
 public class PruebaEscultura {
 
 	public static void main(String[] args) {

@@ -11,12 +11,12 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
-import museo.Pieza;
 
-
-
-
-
+/**
+ * Esta clase pretende crear la interfaz del programa y utiliza la funcion de mostrar los datos de las piezas y las salas
+ * @author Diego
+ *
+ */
 public class Interfaz {
 
 	private JFrame frame;
@@ -66,13 +66,18 @@ public class Interfaz {
 		lblNewLabel.setIcon(lblImage);
 		
 		
-		JButton btnConsularSala = new JButton("Consula Salas");
+		
+		JButton btnConsularSala = new JButton("Consultar Salas");
 		btnConsularSala.addActionListener(new ActionListener() {
+			/**
+			 * Evento que al pulsar pasa al metodo de mostrarSala
+			 */
 			public void actionPerformed(ActionEvent e) {
-				
 				mostrarSala();
 			}
-
+			/**
+			 * Este metodo muestra las piezas de la sala en la que se encuentra
+			 */
 			private void mostrarSala() {
 				System.out.println("Datos de las salas");
 				Escultura e1 = new Escultura("002",20.67,2000,"Piedra", "Esculpido");
@@ -91,12 +96,8 @@ public class Interfaz {
 		        piezas.add(c2);
 		        
 		        Sala s1 = new Sala("001", piezas);
-				s1.mostrarSala();
-				
-				
+				s1.mostrarSala();	
 			}
-
-		
 		});
 		btnConsularSala.setBounds(261, 343, 214, 23);
 		btnConsularSala.setVisible(true);
@@ -105,15 +106,19 @@ public class Interfaz {
 		
 		
 		
-		
-		JButton btnConsultarPieza = new JButton("Consultar piezas");
+		JButton btnConsultarPieza = new JButton("Consultar Piezas");
 		btnConsultarPieza.addActionListener(new ActionListener() {
+			/**
+			 * Evento que al pulsar pasa al metodo de mostrarPiezas
+			 */
 			public void actionPerformed(ActionEvent e) {
 						mostrarPieza();
 			}
-
+			
+			/**
+			 * Este metodo muestra las piezas que hay en el museo
+			 */
 			private void mostrarPieza() {
-				
 				ArrayList<Pieza> pz= new ArrayList<Pieza>();
 				Dinosaurio d1 = new Dinosaurio("002",20.67,2000,"Tiranosaurus rex", "cretacico");
 				Cuadro c1 = new Cuadro("002",20.67,2000,"Tinta china","Madera","Prehistoria");
@@ -125,15 +130,12 @@ public class Interfaz {
 				{
 					System.out.println(pz.get(i).toString()	);
 				}
-
 			}
 		});
 		btnConsultarPieza.setBounds(28, 343, 214, 23);
 		btnConsultarPieza.setVisible(true);
 		frame.getContentPane().add(btnConsultarPieza);		
 	}
-
-	
 
 
 }

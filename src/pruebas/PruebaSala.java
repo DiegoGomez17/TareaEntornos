@@ -9,7 +9,11 @@ import museo.Escultura;
 import museo.Pieza;
 import museo.Sala;
 
-
+/**
+ * La funcion de esta clase es probar que funciona los metodos de las clases correspondientes
+ * @author Diego
+ *
+ */
 public class PruebaSala {
 	
 	public static void main(String[] args) {

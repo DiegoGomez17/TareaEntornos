@@ -6,6 +6,11 @@ import museo.Cuadro;
 import museo.Dinosaurio;
 import museo.Pieza;
 
+/**
+ * La funcion de esta clase es probar que funciona los metodos de las clases correspondientes
+ * @author Diego
+ *
+ */
 public class PruebaPieza {
 
 		public static void main(String[] args) {
