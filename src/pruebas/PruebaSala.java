@@ -11,8 +11,9 @@ import museo.Sala;
 
 
 public class PruebaSala {
-
+	
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		
 		Escultura e1 = new Escultura("002",20.67,2000,"Piedra", "Esculpido");
 		Escultura e2 = new Escultura("003",20.67,2000,"Arcilla", "Modelado");
@@ -30,6 +31,9 @@ public class PruebaSala {
         piezas.add(c2);
         
         Sala s1 = new Sala("001", piezas);
+=======
+		Sala s1 = new Sala("001", null);
+>>>>>>> master
 		s1.mostrarSala();
 	}
 
