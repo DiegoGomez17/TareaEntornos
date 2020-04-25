@@ -114,21 +114,19 @@ public class Interfaz {
 			}
 
 			private void mostrarPieza() {
-				System.out.println("Datos de Piezas");
-				Pieza p1 = new Pieza("001",79.0,12);
-				Pieza p2 = new Pieza("002",45.8,20);
-				Pieza p3 = new Pieza("003",34.78,90);
-				Pieza p4 = new Pieza("004",5.8,70);
-				Pieza p5 = new Pieza("005",40.9,220);
-				p1.mostrarPieza();
-				p2.mostrarPieza();
-				p3.mostrarPieza();
-				p4.mostrarPieza();
-				p5.mostrarPieza();
+				ArrayList<Pieza> pz= new ArrayList<Pieza>();
+				Dinosaurio d1 = new Dinosaurio("002",20.67,2000,"Tiranosaurus rex", "cretacico");
+				Cuadro c1 = new Cuadro("002",20.67,2000,"Tinta china","Madera","Prehistoria");
 				
+				pz.add(d1);
+				pz.add(c1);
+				
+				for(int i=0;i<pz.size();i++)
+				{
+					System.out.println(pz.get(i).toString()	);
+				}	
 			}
 
-			
 		});
 		btnConsultarPieza.setBounds(28, 343, 214, 23);
 		btnConsultarPieza.setVisible(true);
