@@ -118,6 +118,7 @@ public class Interfaz {
 				ArrayList<Pieza> pz= new ArrayList<Pieza>();
 				Dinosaurio d1 = new Dinosaurio("002",20.67,2000,"Tiranosaurus rex", "cretacico");
 				Cuadro c1 = new Cuadro("002",20.67,2000,"Tinta china","Madera","Prehistoria");
+<<<<<<< HEAD
 				Escultura e1 = new Escultura("002",20.67,2000,"Piedra", "Esculpido");
 				
 				
@@ -131,6 +132,18 @@ public class Interfaz {
 				}
 			}
 				
+=======
+				
+				pz.add(d1);
+				pz.add(c1);
+				
+				for(int i=0;i<pz.size();i++)
+				{
+					System.out.println(pz.get(i).toString()	);
+				}	
+			}
+
+>>>>>>> Interfaz
 		});
 		btnConsultarPieza.setBounds(28, 343, 214, 23);
 		btnConsultarPieza.setVisible(true);

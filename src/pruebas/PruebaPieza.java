@@ -18,7 +18,7 @@ public class PruebaPieza {
 			
 			for(int i=0;i<pz.size();i++)
 			{
-				System.out.println(pz.get(i).toString()	);
+				System.out.println(pz.get(i).toString());
 			}
 		}
 }
