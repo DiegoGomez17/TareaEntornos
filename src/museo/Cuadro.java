@@ -58,6 +58,11 @@ public class Cuadro extends Pieza {
 		 System.out.println("Soporte del cuadro -> " + this.soporte);
 		 System.out.println("Temática del cuadro -> " + this.tematica);
 	 }
+	@Override
+	public void limpiarPieza() {
+		// TODO Auto-generated method stub
+		
+	}
 
 	
 	

@@ -47,6 +47,11 @@ public class Dinosaurio extends Pieza {
 		 System.out.println("Especie de dinosaurio -> " + this.especie);
 		 System.out.println("Período-> " + this.periodo);
 	 }
+	@Override
+	public void limpiarPieza() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 	

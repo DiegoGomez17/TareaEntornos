@@ -46,6 +46,11 @@ public class Escultura extends Pieza {
 		 System.out.println("Material utilizado en la escultura -> " + this.material);
 		 System.out.println("Técnica de la escultura -> " + this.tecnica);
 	 }
+	@Override
+	public void limpiarPieza() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 	

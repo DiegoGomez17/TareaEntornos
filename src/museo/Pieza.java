@@ -1,6 +1,6 @@
 package museo;
 
-public class Pieza {
+public abstract class Pieza {
 
 	//ATRIBUTOS--------------------------------------------
 		private String id;
@@ -92,5 +92,9 @@ public class Pieza {
 			 System.out.println("Tamaño la apieza -> " + this.tamaño + " centimetros");
 			 System.out.println("Antigüedad  de la pieza -> " + this.antiguedad + " años");
 		 }
+		
+ public abstract void limpiarPieza();
+		 
+		
 
 }
