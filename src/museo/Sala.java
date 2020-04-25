@@ -7,7 +7,7 @@ public class Sala {
 	private String idSala;
 	private ArrayList<Pieza> piezas;
 	//CONSTRUCTORES----------------------------------------
-	public Sala(String idSala, ArrayList<Pieza> piezas, ArrayList<String> vibilidad) {
+	public Sala(String idSala, ArrayList<Pieza> piezas) {
 		this.idSala = idSala;
 		if(piezas == null)
 		{
