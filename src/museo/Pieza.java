@@ -128,7 +128,4 @@ public abstract class Pieza {
 		 * Creamos un metodo abstracto por si en un futuro lo utilizo
 		 */
  public abstract void limpiarPieza();
-		 
-		
-
 }

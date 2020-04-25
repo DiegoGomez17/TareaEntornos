@@ -11,14 +11,12 @@ public class Sala {
 	private String idSala;
 	private ArrayList<Pieza> piezas;
 	//CONSTRUCTORES----------------------------------------
-<<<<<<< HEAD
-=======
 	/**
 	 * El metodo de este constructor, lo arreglamos un poco para evitar que nos salte el error de Java null pointer
 	 * @param idSala. Atributo de la clase
 	 * @param piezas. Es un arrayList de Pieza
 	 */
->>>>>>> master
+
 	public Sala(String idSala, ArrayList<Pieza> piezas) {
 		this.idSala = idSala;
 		if(piezas == null)
